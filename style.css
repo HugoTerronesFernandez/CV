@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css2?family=Anton&family=Gabarito&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gabarito";
+}
+
+body {
+  background-color: lightgray;
+}
+
+header {
+  display: flex;
+  height: 10rem;
+  background-color: rgb(0, 16, 107);
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  padding-top: 1rem;
+  justify-content: start;
+  align-items: center;
+  padding-left: 5rem;
+  font-size: 3rem;
+  color: whitesmoke;
+}
+
+.job {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  color: whitesmoke;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.informations {
+  background-color: lightgray;
+  padding-left: 5rem;
+  margin-top: 5rem;
+}
+
+.why-title {
+  display: flex;
+  align-self: flex-start;
+  font-size: 2rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  text-decoration: underline;
+  background-color: lightgray;
+}
+
+.why-text {
+  display: flex;
+  font-size: 1.3rem;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  padding-right: 10%;
+}
+
+.langues {
+  display: flex;
+  font-size: 2rem;
+  text-decoration: underline;
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+
+.french {
+  display: flex;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+
+.english {
+  display: flex;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+
+.french-text {
+  display: flex;
+  font-size: 1.3rem;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  padding-right: 10%;
+}
+
+.english-text {
+  display: flex;
+  font-size: 1.3rem;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  padding-right: 10%;
+}
+
+.diplomes {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  padding-right: 19rem;
+  float: right;
+  font-size: 1.8rem;
+}
+
+.etudes {
+  padding-top: 5rem;
+  padding-right: 15rem;
+}
+
+.obtain {
+  text-decoration: underline;
+}
+
+.ceb,
+.ce1d {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.xp-text {
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  padding-left: 5rem;
+  text-decoration: underline;
+}
+
+.xp-p {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  width: 63rem;
+}
+
+.comp {
+  padding-top: 2rem;
+  float: right;
+  width: 38rem;
+}
+
+.comp-text {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+}
+
+.comp-title {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+footer {
+  height: 5rem;
+  background-color: rgb(0, 7, 46);
+  margin-top: 10.2rem;
+}
